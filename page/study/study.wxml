@@ -1,3 +1,57 @@
-<view>
-    <image src="https://raw.githubusercontent.com/521zzp/chajian/master/img/12.jpg"></image>
+<view class='top'>
+	<view class='return_button'></view>
+	<span class='title'>我的积分</span>
+</view>
+<view class='head'>
+	<view class='inhead left'>
+		<span class='today_r'>今日积分</span>
+		<span class='today_n'>0</span>
+	</view>
+	<view class='inhead_m left'>
+		<view class='pic_box'>
+			<span>可用积分</span>
+			<span>30</span>
+			<view></view>
+		</view>
+	</view>
+	<view class='inhead left'>
+		<navigator class='right' url="../component/index" >赚积分</navigator>
+	</view>
+</view>
+<view class='record'>
+	<navigator url="../API/canvas/canvas">积分记录</navigator>
+	<navigator url="../API/animation/animation" class='mid_nav'>兑换记录</navigator>
+	<navigator url="../API/image/image">积分规则</navigator>
+</view>
+<view class='shops clearfix'>
+	<view class='shops_head'>
+		<b></b>
+		积分兑换
+	</view>
+	<view class='shop_content'>
+		<view class='shops_list left'>
+			<span>清香芝麻香蕉</span>
+			<span>有益健康有益健康</span>
+			<img></img>
+			<span>10</span>
+		</view>
+		<view class='shops_list left'>
+			<span>清香芝麻香蕉</span>
+			<span>有益健康有益健康</span>
+			<img></img>
+			<span>10</span>
+		</view>
+		<view class='shops_list left'>
+			<span>清香芝麻香蕉</span>
+			<span>有益健康有益健康</span>
+			<img></img>
+			<span>10</span>
+		</view>
+		<view class='shops_list left'>
+			<span>清香芝麻香蕉</span>
+			<span>有益健康有益健康</span>
+			<img></img>
+			<span>10</span>
+		</view>
+	</view>
 </view>

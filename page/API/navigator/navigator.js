@@ -1,6 +1,6 @@
 Page({
   navigateTo: function () {
-    wx.navigateTo({ url: './navigator' })
+    wx.navigateTo({ url: '../../study/study?id=1' })
   },
   navigateBack: function () {
     wx.navigateBack()

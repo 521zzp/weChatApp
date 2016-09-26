@@ -1,9 +1,144 @@
-/** wxss **/
-/** 修改默认的navigator点击态 **/
-.navigator-hover{
-    color:blue;
+.top{
+	display:block;
+	background:#E95007;
+	height:127rpx;
+	position:relative;
 }
-/** 自定义其他点击态样式类 **/
-.other-navigator-hover{
-    color:red;
+.return_button{
+	display:block;
+	width:17rpx;
+	height:34rpx;
+	position:absolute;
+	background:url(../imgs/img4.png) no-repeat;
+	background-size:100%;
+	bottom:30rpx;
+	left:20rpx;
+}
+.title{
+	color:#fff;
+	position:absolute;
+	text-align:center;
+	height:34rpx;
+	line-height:34rpx;
+	width:100%;
+	bottom:30rpx;
+	font-size:34rpx;
+}
+.head{
+	height: 340rpx;
+	background: #fff;
+}
+.inhead{
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+}
+.inhead_m{
+	height: 100%;
+	width: 40%;
+	display: inline-block;
+}
+.today_r{
+	font-size: 24rpx;
+	color: #999999;
+	display: block;
+	padding-left: 44rpx;
+	margin-top: 30rpx;
+}
+.today_n{
+	margin-left: 135rpx;
+	font-size: 40rpx;
+}
+.pic_box{
+	width: 280rpx;
+	height: 280rpx;
+	background: url(../imgs/img9.png) no-repeat;
+	background-size: 100%;
+	margin: 30rpx auto;
+}
+.pic_box span{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #ff6b2f;
+}
+.pic_box span:first-of-type{
+	font-size: 24rpx;
+	margin-top:54rpx;
+}
+.pic_box span:last-of-type{
+	font-size: 50rpx;
+	margin-top: 40rpx;
+}
+.pic_box view{
+	width: 70rpx;
+	height: 50rpx;
+	margin: 22rpx auto;
+	background: url(../imgs/img10.png) no-repeat;
+	background-size: 100%;
+}
+.inhead navigator{
+	width: 140rpx;
+	height: 48rpx;
+	display: block;
+	font-size: 24rpx;
+	color: #14a1f2;
+	border: 1px solid #14a1f2;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 48rpx;
+	margin-right: 34rpx;
+	margin-top: 110%;
+}
+.record{
+	width: 100%;
+	height: 100rpx;
+	margin-top: 10rpx;
+	background: #fff;
+	border-top: 1px solid #efeff4;
+	border-bottom: 1px solid #dcdcdc;
+}
+.record navigator{
+	display: inline-block;
+	height: 64rpx;
+	width: 33%;
+	font-size: 26rpx;
+	color: #333333;
+	text-align: center;
+	line-height: 64rpx;
+	margin-top: 18rpx;
+}
+.record .mid_nav{
+	border-left: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
+}
+.shops{
+	background: #fff;
+	margin-top: 10rpx;	
+	
+}
+.shops_head{
+	width: 100%;
+	height: 66rpx;
+	line-height: 66rpx;
+	border-bottom: 1px solid #dcdcdc;
+	font-size: 26rpx;
+	color: #666;
+}
+.shops_head b{
+	display: inline-block;
+	width: 6rpx;
+	height: 30rpx;
+	background: #41bb15;
+	margin-right: 20rpx;
+}
+.shops_list{
+	display: inline-block;
+	height: 30rpx;
+}
+.shop_content .shops_list:nth-child(odd){
+	width: 50%;
+}
+.shop_content .shops_list:nth-child(even){
+	width: 50%;
 }

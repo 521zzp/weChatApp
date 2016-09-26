@@ -17,7 +17,7 @@ page {
 }
 .page-header-text {
   padding: 20rpx 40rpx;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc
 }
 
 .page-body {
@@ -212,4 +212,23 @@ checkbox, radio{
 }
 .section__ctn{
 
+}
+.clearfix:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
 }
