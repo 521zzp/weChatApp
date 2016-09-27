@@ -28,30 +28,19 @@
 		<b></b>
 		积分兑换
 	</view>
-	<view class='shop_content'>
-		<view class='shops_list left'>
-			<span>清香芝麻香蕉</span>
-			<span>有益健康有益健康</span>
-			<img></img>
-			<span>10</span>
-		</view>
-		<view class='shops_list left'>
-			<span>清香芝麻香蕉</span>
-			<span>有益健康有益健康</span>
-			<img></img>
-			<span>10</span>
-		</view>
-		<view class='shops_list left'>
-			<span>清香芝麻香蕉</span>
-			<span>有益健康有益健康</span>
-			<img></img>
-			<span>10</span>
-		</view>
-		<view class='shops_list left'>
-			<span>清香芝麻香蕉</span>
-			<span>有益健康有益健康</span>
-			<img></img>
-			<span>10</span>
-		</view>
+	<view  class='shop_content'>
+		<template is="shops_box" data="{{shopItems}}"/>
 	</view>
 </view>
+
+
+<template name="shops_box">
+  <block wx:for="{{shopItems}}">
+	<view  class='{{(index%2==0)? "odd shops_list left":"even shops_list left" }}'>
+			<span class="oneLine shop_name">{{item.title}}</span>
+			<span class="oneLine info">{{item.info}}</span>
+			<image src="{{item.url}}" class='left'></image>
+			<span class="count">{{item.num}}</span>
+	 </view>
+	</block>
+</template>
