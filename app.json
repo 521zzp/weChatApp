@@ -1,5 +1,25 @@
 {
   "pages": [
+
+      "page/bilibili/index/index",
+      "page/bilibili/home/home",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       "page/study/study",
       "page/component/index",
       "page/component/navigation-pages/controller/controller",
@@ -68,10 +88,10 @@
 
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "小程序演示",
-    "navigationBarBackgroundColor": "#fbf9fe",
-    "backgroundColor": "#fbf9fe"
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "bilibili- ( ゜- ゜)つロ",
+    "navigationBarBackgroundColor": "#ff8eb3",
+    "backgroundColor": "#ff8eb3"
   },
   "tabBar": {
     "color": "#dddddd",

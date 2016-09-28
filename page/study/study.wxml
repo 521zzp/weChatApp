@@ -1,7 +1,14 @@
-<view class='top'>
-	<view class='return_button'></view>
-	<span class='title'>我的积分</span>
+<view class="swiper_box">
+	<swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="5000" duration="1000">
+		<block wx:for-items="{{imgs}}">
+			<swiper-item>
+				<view class="swiper-item" style="background:{{item.color}}"><image src="{{item.url}}"></image></view>
+			</swiper-item>
+		</block>
+	</swiper>
 </view>
+
+
 <view class='head'>
 	<view class='inhead left'>
 		<span class='today_r'>今日积分</span>

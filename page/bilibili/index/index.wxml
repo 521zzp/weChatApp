@@ -1,0 +1,3 @@
+<view bindtap="open">
+    <image src="../../../images/face.png"></image>
+</view>

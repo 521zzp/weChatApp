@@ -1,19 +1,3 @@
-.top{
-	display:block;
-	background:#E95007;
-	height:127rpx;
-	position:relative;
-}
-.return_button{
-	display:block;
-	width:17rpx;
-	height:34rpx;
-	position:absolute;
-	background:url(../imgs/img4.png) no-repeat;
-	background-size:100%;
-	bottom:30rpx;
-	left:20rpx;
-}
 .title{
 	color:#fff;
 	position:absolute;
@@ -175,4 +159,22 @@
 	position: absolute;
 	right: 30rpx;
 	bottom: 30rpx;
+}
+.swiper_box{
+	width: 100%;
+	height: 400rpx;
+}
+.swiper_box swiper{
+	height: 400rpx;
+}
+.swiper-item{
+    display: block;
+	width: 100%;
+    height: 400rpx;
+}
+.swiper-item image{
+	display: inline-block;
+	width: 100%;
+	height: 400rpx;
+	position: absolute;
 }
