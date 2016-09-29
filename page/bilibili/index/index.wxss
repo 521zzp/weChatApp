@@ -1,8 +1,33 @@
 view{
     width: 100%;
     height: 100%;
+    position: absolute;
+    background: #fff;
 }
 view image{
-    width: 100%;
-    height: 99.5%;
+    display: block;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.face1{
+    width: 440rpx;
+    height: 360rpx;
+    top:30%;
+}
+.face2{
+    width: 199rpx;
+    height: 63rpx;
+    bottom: 50rpx;
+}
+view span{
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 10rpx;
+    font-size: 30rpx;
+    color: #dcdcdc;
+    text-align: center;
 }

@@ -1,7 +1,5 @@
-page {
-  background-color: #fbf9fe;
-  height: 100%;
-}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -210,8 +208,18 @@ checkbox, radio{
     padding-left: 0;
     padding-right: 0;
 }
-.section__ctn{
 
+
+
+
+
+
+
+page {
+  background-color: #eaeaea;
+  height: 100%;
+  font-family: "仿宋";
+  font-size: 26rpx;
 }
 .clearfix:after{
   content:'';
@@ -231,4 +239,79 @@ ul,li{
 }
 a{
     text-decoration: none;
+}
+.header{
+    width:100%;
+    height: 70rpx;
+    background: #fb7299;
+}
+.header .toLogin,.header .oprates{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.toLogin image{
+    display: inline-block;
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50%;
+    margin-top: 10rpx;
+    margin-left: 20rpx;
+}
+.toLogin span{
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    font-size: 28rpx;
+    line-height: 70rpx;
+    margin-left: 20rpx;
+}
+.oprates .nav_button{
+    margin-top: 16rpx;
+    margin-right: 30rpx;
+    float: right;
+    height: 34rpx;
+   
+}
+.oprates .game_center{
+    background: url(/images/drawable-xxhdpi-v4/ic_menu_top_game_center.png) no-repeat;
+     background-size: contain;
+     width:44rpx;
+}
+.oprates .download{
+    background: url(/images/drawable-xxhdpi-v4/ic_toolbar_menu_download.png) no-repeat;
+     background-size: contain;
+     width:30rpx;
+}
+.oprates .search{
+    background: url(/images/drawable-xxhdpi-v4/ic_toolbar_menu_search.png) no-repeat;
+     background-size: contain;
+     width:34rpx;
+}
+.content_view{
+    display: block;
+    height: 1200rpx;
+    width: 100%;
+    position: fixed;
+    top: 70rpx;
+}
+
+.common_swiper_box{
+	width: 100%;
+	height: 300rpx;
+}
+.common_swiper_box swiper{
+	height: 300rpx;
+}
+.common_swiper_box .swiper-item{
+    display: block;
+	width: 100%;
+    height: 300rpx;
+}
+.common_swiper_box .swiper-item image{
+	display: inline-block;
+	width: 100%;
+	height: 300rpx;
+	position: absolute;
 }

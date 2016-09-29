@@ -1,0 +1,99 @@
+.live_under_swiper{
+    height: 110rpx;
+    background: #fafafa;
+}
+.live_under_swiper view{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+}
+.live_under_swiper view navigator{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.live_under_swiper view navigator view{
+    display: inline-block;
+    width: 60rpx;
+    height: 60rpx;
+    margin-top:10rpx;
+    background-size: cover;
+}
+.focus_uper view{
+    background:url(/images/drawable-xxhdpi-v4/live_home_follow_anchor.png) no-repeat;
+}
+.live_center view{
+    background:url(/images/drawable-xxhdpi-v4/live_home_live_center.png) no-repeat;
+}
+.search_room view{
+    background:url(/images/drawable-xxhdpi-v4/live_home_search_room.png) no-repeat;
+}
+.all_classify view{
+    background:url(/images/drawable-xxhdpi-v4/live_home_all_category.png) no-repeat;
+}
+.live_under_swiper view navigator span{
+    height: 20rpx;
+    display: block;
+    text-align: center;
+    line-height: 20rpx;
+    margin-bottom: 10rpx;
+}
+
+
+.live_recommend{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.title{
+    margin-top: 20rpx;
+}
+.title navigator{
+    display: block;
+    width: 100%;
+    height: 50rpx;
+}
+.title navigator span{
+    display: inline-block;
+    font-size: 30rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+}
+.title navigator .plate_left{
+    padding-left: 60rpx;
+}
+.live_recommend .title navigator .plate_left{
+    background: url(/images/drawable-hdpi-v4/ic_head_live.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+
+.live_recommend .title navigator .plate_right b{
+    color: #fd7da0;
+    
+}
+
+
+.step_one{
+    margin-top: 30rpx;
+}
+.live_recommend .contentbox ul{
+    display: block;
+}
+.live_recommend .contentbox ul li{
+    width: 48%;
+    height: 300rpx;
+    background: #fff;
+    border-radius: 4rpx;
+    box-shadow:0 0 2px 0 #cfcfcf;
+    margin-bottom: 30rpx;
+}
+.contentbox ul li navigator{
+    display: block;
+    width: 100%;
+    height: 100%;
+}

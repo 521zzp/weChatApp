@@ -1,0 +1,78 @@
+<include src="/page/bilibili/header/header" />
+<scroll-view class="content_view" scroll-y="true">
+   
+    <view class="common_swiper_box">
+        <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="5000" duration="1000">
+            <block wx:for-items="{{live_siwpers}}">
+                <swiper-item>
+                    <navigator class="swiper-item" url="/page/component.index" ><image src="{{item.imgpath}}"></image></navigator>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class="live_under_swiper">
+        <view>
+            <navigator class="focus_uper">
+                <view></view>
+                <span>关注主播</span>
+            </navigator>
+        </view>
+        <view>
+            <navigator class="live_center">
+                <view></view>
+                <span>直播中心</span>
+            </navigator>
+        </view>
+        <view>
+            <navigator class="search_room">
+                <view></view>
+                <span>搜索直播</span>
+            </navigator>
+        </view>
+        <view>
+            <navigator class="all_classify">
+                <view></view>
+                <span>全部分类</span>
+            </navigator>
+        </view>
+    </view>
+
+    <view class="live_recommend clearfix">
+        <view class="title">
+            <navigator>
+                <span class="plate_left left">推荐主播</span>
+                <span class="plate_right right">当前<b>2447</b>个直播></span>
+            </navigator>
+        </view>
+        <view class="step_one contentbox">
+            <ul>
+                <li class="left">
+                    <navigator>
+                        <image src="/static/image/live/a33849b2148ad4cdb8694bd224d5a7e59678b057.jpg_320x200.jpg"></image>
+                        <span></span>
+                        <view>
+                            <span></span>
+                            <span></span>
+                        </view>
+                    </navigator>
+                </li>
+                <li class="right"></li>
+                <li class="left"></li>
+                <li class="right"></li>
+                <li class="left"></li>
+                <li class="right"></li>
+            </ul>
+        </view>
+        <view class="offic_recommend"></view>
+        <view class="step_two contentbox">
+            <ul>
+                <li></li>
+            </ul>
+        </view>
+    </view>
+
+
+
+
+</scroll-view>

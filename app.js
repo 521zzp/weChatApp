@@ -10,5 +10,8 @@ App({
   },
   globalData: {
     hasLogin: false
-  }
+  },
+  user_face:"/images/noface.gif",
+  user_name:"未登录",
+
 })

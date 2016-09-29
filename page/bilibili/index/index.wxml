@@ -1,3 +1,5 @@
-<view bindtap="open">
-    <image src="../../../images/face.png"></image>
+<view>
+    <image class="face1" src="../../../images/face1.png"></image>
+    <image class="face2" src="../../../images/face2.png"></image>
+    <span>Copyright©2009-2019 ZZP</span>
 </view>

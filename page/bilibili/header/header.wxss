@@ -1,0 +1,49 @@
+.header{
+    width:100%;
+    height: 70rpx;
+    background: #fb7299;
+}
+.header .toLogin,.header .oprates{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.toLogin image{
+    display: inline-block;
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50%;
+    margin-top: 10rpx;
+    margin-left: 20rpx;
+}
+.toLogin span{
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    font-size: 28rpx;
+    line-height: 70rpx;
+    margin-left: 20rpx;
+}
+.oprates .nav_button{
+    margin-top: 16rpx;
+    margin-right: 30rpx;
+    float: right;
+    height: 34rpx;
+   
+}
+.oprates .game_center{
+    background: url(/images/drawable-xxhdpi-v4/ic_menu_top_game_center.png) no-repeat;
+     background-size: contain;
+     width:44rpx;
+}
+.oprates .download{
+    background: url(/images/drawable-xxhdpi-v4/ic_toolbar_menu_download.png) no-repeat;
+     background-size: contain;
+     width:30rpx;
+}
+.oprates .search{
+    background: url(/images/drawable-xxhdpi-v4/ic_toolbar_menu_search.png) no-repeat;
+     background-size: contain;
+     width:34rpx;
+}

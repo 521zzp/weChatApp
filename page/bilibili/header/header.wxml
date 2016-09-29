@@ -1,0 +1,12 @@
+<view class="header">
+        <view class="toLogin">
+            <image class="left" src="{{user_face}}"></image>
+            <span class="left">{{user_name}}</span>
+        </view>
+        <view class="oprates">
+            <view class="nav_button search"></view>
+            <view class="nav_button download"></view>
+            <view class="nav_button game_center"></view>
+        </view>
+</view>
+

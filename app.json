@@ -2,18 +2,12 @@
   "pages": [
 
       "page/bilibili/index/index",
-      "page/bilibili/home/home",
-
-
-
-
-
-
-
-
-
-
-
+      "page/bilibili/live/live",
+      "page/bilibili/recommend/recommend",
+      "page/bilibili/drama/drama",
+      "page/bilibili/discover/discover",
+      "page/bilibili/concern/concern",
+      "page/bilibili/header/header",
 
 
 
@@ -90,8 +84,8 @@
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "bilibili- ( ゜- ゜)つロ",
-    "navigationBarBackgroundColor": "#ff8eb3",
-    "backgroundColor": "#ff8eb3"
+    "navigationBarBackgroundColor": "#fb7299",
+    "backgroundColor": "#fff"
   },
   "tabBar": {
     "color": "#dddddd",
@@ -99,15 +93,30 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [{
-      "pagePath": "page/component/index",
+      "pagePath": "page/bilibili/live/live",
       "iconPath": "image/wechat.png",
       "selectedIconPath": "image/wechatHL.png",
-      "text": "组件"
+      "text": "直播"
     }, {
-      "pagePath": "page/API/index/index",
+      "pagePath": "page/bilibili/recommend/recommend",
       "iconPath": "image/wechat.png",
       "selectedIconPath": "image/wechatHL.png",
-      "text": "接口"
+      "text": "推荐"
+    }, {
+      "pagePath": "page/bilibili/drama/drama",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "番剧"
+    }, {
+      "pagePath": "page/bilibili/concern/concern",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "关注"
+    }, {
+      "pagePath": "page/bilibili/discover/discover",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "发现"
     }]
   },
   "networkTimeout": {
@@ -117,4 +126,5 @@
     "downloadFile": 10000
   },
   "debug": true
+
 }
