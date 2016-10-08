@@ -45,15 +45,15 @@
                 <span class="plate_right right">当前<b>2447</b>个直播></span>
             </navigator>
         </view>
-        <view class="step_one contentbox">
-            <ul>
+        <view class="step_one contentbox ">
+            <ul class="clearfix">
                 <li class="left">
                     <navigator>
                         <image src="/static/image/live/a33849b2148ad4cdb8694bd224d5a7e59678b057.jpg_320x200.jpg"></image>
-                        <span></span>
-                        <view>
-                            <span></span>
-                            <span></span>
+                        <span>【极乐净土】老司机开车啦,刷卡上车</span>
+                        <view class="bottom_info">
+                            <span class="left">小天不是受QAQ</span>
+                            <span class="right">1.2万</span>
                         </view>
                     </navigator>
                 </li>
