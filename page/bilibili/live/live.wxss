@@ -78,13 +78,13 @@
 }
 
 
-.step_one{
+.common_live_content{
     margin-top: 30rpx;
 }
-.live_recommend .contentbox ul{
+.common_live_content ul{
     display: block;
 }
-.live_recommend .contentbox ul li{
+.common_live_content ul li{
     width: 48%;
     height: 300rpx;
     background: #fff;
@@ -93,7 +93,7 @@
     margin-bottom: 30rpx;
     overflow: hidden;
 }
-.contentbox ul li navigator{
+.common_live_content ul li navigator{
     display: block;
     border-radius: 4rpx;
     overflow: hidden;
@@ -101,19 +101,19 @@
     height: 100%;
     position: relative;
 }
-.contentbox ul li navigator image{
+.common_live_content ul li navigator image{
     display: inline-block;
     border-top-left-radius: 4rpx;
     border-top-right-radius: 4rpx;
     width: 100%;
     height: 200rpx;
 }
-.contentbox ul li navigator span{
+.common_live_content ul li navigator span{
     display: inline-block;
     padding-left: 15rpx;
     padding-right: 15rpx;
 }
-.contentbox ul li navigator .bottom_info{
+.common_live_content ul li navigator .bottom_info{
     display: block;
     position: absolute;
     height: 30rpx;
@@ -121,9 +121,19 @@
     width: 100%;
     bottom: 0;
 }
-.contentbox ul li navigator .bottom_info .right{
+.common_live_content ul li navigator .bottom_info span{
+    font-size: 6rpx;
+}
+.common_live_content ul li navigator .bottom_info .right{
     padding-left: 30rpx;
     background: url(/images/drawable-xxhdpi-v4/ic_watching.png) no-repeat;
     background-size: 30rpx 20rpx;
-    background-position: 0 5rpx;
+    background-position: 0 7rpx;
+}
+
+
+
+
+.filling{
+    height: 100rpx;
 }
