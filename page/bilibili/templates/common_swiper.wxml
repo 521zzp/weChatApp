@@ -1,0 +1,11 @@
+<template name="swiper_template">
+<view class="common_swiper_box">
+    <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="5000" duration="1000">
+        <block wx:for-items="{{items}}">
+            <swiper-item>
+                <navigator class="swiper-item" url="/page/component.index" ><image src="{{item.imgpath}}"></image></navigator>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+</template>

@@ -41,7 +41,7 @@
 }
 
 
-.live_recommend{
+.common_plant{
     padding-left: 4%;
     padding-right: 4%;
 }
@@ -50,6 +50,9 @@
     display: block;
     clear: both;
 }
+
+
+
 .title{
     margin-top: 20rpx;
 }
@@ -67,65 +70,56 @@
 .title navigator .plate_left{
     padding-left: 60rpx;
 }
-.live_recommend .title navigator .plate_left{
-    background: url(/images/drawable-hdpi-v4/ic_head_live.png) no-repeat;
-    background-size: 50rpx 50rpx;
-}
-
-.live_recommend .title navigator .plate_right b{
+.title navigator .plate_right b{
     color: #fd7da0;
-    
 }
 
 
-.common_live_content{
-    margin-top: 30rpx;
-}
-.common_live_content ul{
+
+.offic_recommend navigator{
     display: block;
-}
-.common_live_content ul li{
-    width: 48%;
-    height: 300rpx;
     background: #fff;
-    border-radius: 4rpx;
+    border-radius: 4px;
+    overflow: hidden;
     box-shadow:0 0 2px 0 #cfcfcf;
-    margin-bottom: 30rpx;
-    overflow: hidden;
 }
-.common_live_content ul li navigator{
+.offic_recommend navigator image{
     display: block;
-    border-radius: 4rpx;
-    overflow: hidden;
     width: 100%;
-    height: 100%;
-    position: relative;
+    height: 300rpx;
 }
-.common_live_content ul li navigator image{
-    display: inline-block;
-    border-top-left-radius: 4rpx;
-    border-top-right-radius: 4rpx;
-    width: 100%;
-    height: 200rpx;
-}
-.common_live_content ul li navigator span{
+.offic_recommend navigator span{
     display: inline-block;
     padding-left: 15rpx;
     padding-right: 15rpx;
 }
-.common_live_content ul li navigator .bottom_info{
-    display: block;
-    position: absolute;
+.offic_recommend navigator .title_info{
+    overflow: hidden;
+    text-overflow: ellipsis;
     height: 30rpx;
     line-height: 30rpx;
-    width: 100%;
-    bottom: 0;
+    margin-top: 10rpx;
 }
-.common_live_content ul li navigator .bottom_info span{
-    font-size: 6rpx;
+.offic_recommend navigator .title_info b{
+    color: #fd7da0;
 }
-.common_live_content ul li navigator .bottom_info .right{
-    padding-left: 30rpx;
+.offic_recommend navigator .bottom_info{
+    display: block;
+    height: 30rpx;
+    line-height: 30rpx;
+    margin-bottom: 10rpx;
+}
+.offic_recommend navigator .bottom_info .left{
+    padding-right: 0rpx;
+    display: inline-block;
+    width: 60%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.offic_recommend navigator .bottom_info .right{
+    display: inline-block;
+    padding-left: 35rpx;
     background: url(/images/drawable-xxhdpi-v4/ic_watching.png) no-repeat;
     background-size: 30rpx 20rpx;
     background-position: 0 7rpx;
@@ -133,7 +127,44 @@
 
 
 
-
-.filling{
-    height: 100rpx;
+.live_recommend .title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_head_live.png) no-repeat;
+    background-size: 50rpx 50rpx;
 }
+.paint_plate .title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_live_center_awards.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.mobile_plant .title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_btn_biliyoo.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.dance_plant .title navigator .plate_left{
+    background: url(/images/mipmap-xxhdpi-v4/ic_category_t155.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.mobile_game_plant .title navigator .plate_left{
+    background: url(/images/drawable-xhdpi-v4/ic_author_verified.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.pc_game_plant .title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_header_ding.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.net_game_plant .title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_game_detail_qq_group.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.otaku_plant .title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_header_activity_center.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.video_hall_plant .title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_header_movie_fall.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+.paint_plate .title navigator .plate_right b{
+    color: #fd7da0;
+}
+
+

@@ -1,2 +1,9 @@
+<import src="/page/bilibili/templates/live_common_box.wxml"/>
+<import src="/page/bilibili/templates/common_swiper.wxml"/>
 <include src="/page/bilibili/header/header" />
-<view>发现</view>
+
+<scroll-view class="content_view" scroll-y="true">
+ <template is="swiper_template" data="{{items:live_siwpers,indicatorDots:indicatorDots,vertical:vertical,autoplay:autoplay,interval:siwper_interval,duration:siwper_duration}}"/>
+
+ 
+</scroll-view>

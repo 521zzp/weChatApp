@@ -1,0 +1,6 @@
+<template name = "common_bottom_more">
+    <view class="bottom_more">
+        <navigator><span class="left">查看更多</span></navigator>
+        <span class="right">11条新动态点击刷新<b class="right"></b></span>
+    </view>
+</template>

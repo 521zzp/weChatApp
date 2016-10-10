@@ -297,6 +297,7 @@ a{
     top: 70rpx;
 }
 
+
 .common_swiper_box{
 	width: 100%;
 	height: 300rpx;
@@ -314,4 +315,119 @@ a{
 	width: 100%;
 	height: 300rpx;
 	position: absolute;
+}
+
+
+.common_live_content{
+    margin-top: 30rpx;
+}
+.common_live_content ul{
+    display: block;
+}
+.common_live_content ul li{
+    width: 48%;
+    height: 320rpx;
+    background: #fff;
+    border-radius: 4rpx;
+    box-shadow:0 0 2px 0 #cfcfcf;
+    margin-bottom: 30rpx;
+    overflow: hidden;
+}
+.common_live_content ul li navigator{
+    display: block;
+    border-radius: 4rpx;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.common_live_content ul li navigator image{
+    display: inline-block;
+    border-top-left-radius: 4rpx;
+    border-top-right-radius: 4rpx;
+    width: 100%;
+    height: 200rpx;
+}
+.common_live_content ul li navigator span{
+    display: inline-block;
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+}
+.common_live_content ul li navigator .title_info{
+    height: 30px;
+    width: 305rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10rpx;
+}
+.common_live_content ul li navigator .bottom_info{
+    display: block;
+    position: absolute;
+    height: 30rpx;
+    line-height: 30rpx;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 10rpx;
+}
+.common_live_content ul li navigator .bottom_info span{
+    font-size: 1rpx;
+}
+.common_live_content ul li navigator span b{
+    color:#fd7da0;
+}
+.common_live_content ul li navigator .bottom_info .left{
+    padding-right: 0rpx;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.common_live_content ul li navigator .bottom_info .right{
+    display: inline-block;
+    padding-left: 35rpx;
+    background: url(/images/drawable-xxhdpi-v4/ic_watching.png) no-repeat;
+    background-size: 30rpx 20rpx;
+    background-position: 0 7rpx;
+}
+
+
+.bottom_more{
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 5rpx;
+}
+.bottom_more navigator .left{
+    display: inline-block;
+    height: 100%;
+    padding-left: 80rpx;
+    padding-right: 80rpx;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow:0 0 2px 0 #dcdcdc;
+}
+.bottom_more .right{
+    display: inline-block;
+    height: 50rpx;
+    line-height: 50rpx;
+    
+}
+.bottom_more .right b{
+    display: inline-block;
+    width: 24rpx;
+    height: 24rpx;
+    margin-top: 13rpx;
+    background-color: #fb7299;
+    background-image: url("/images/drawable-xxhdpi-v4/ic_game_detail_gift_refresh.png");
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.filling{
+    height: 120rpx;
 }

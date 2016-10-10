@@ -1,15 +1,11 @@
+<import src="/page/bilibili/templates/live_common_box.wxml"/>
+<import src="/page/bilibili/templates/common_swiper.wxml"/>
+<import src="/page/bilibili/templates/common_bottom_more.wxml"/>
 <include src="/page/bilibili/header/header" />
+
 <scroll-view class="content_view" scroll-y="true">
    
-    <view class="common_swiper_box">
-        <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="5000" duration="1000">
-            <block wx:for-items="{{live_siwpers}}">
-                <swiper-item>
-                    <navigator class="swiper-item" url="/page/component.index" ><image src="{{item.imgpath}}"></image></navigator>
-                </swiper-item>
-            </block>
-        </swiper>
-    </view>
+    <template is="swiper_template" data="{{items:live_siwpers,indicatorDots:indicatorDots,vertical:vertical,autoplay:autoplay,interval:siwper_interval,duration:siwper_duration}}"/>
 
     <view class="live_under_swiper">
         <view>
@@ -38,48 +34,81 @@
         </view>
     </view>
 
-    <view class="live_recommend clearfix">
-        <view class="title">
-            <navigator>
-                <span class="plate_left left">推荐主播</span>
-                <span class="plate_right right">当前<b>2447</b>个直播></span>
-            </navigator>
-        </view>
+    <view class="live_recommend common_plant clearfix">
+        <template is="live_common_title" data="{{info:live_recommend_data}}"/>
 
         <template is="live_common_box" data="{{items:recommend_lives}}"/>
 
-        
-        <view class="offic_recommend"></view>
-        <view class="common_live_content">
-            <ul>
-                <li></li>
-            </ul>
+        <view class="offic_recommend clearfix">
+             <navigator url="http://www.bilibili.com" class="clearfix">
+                <image src="{{office_recommend.imgpath}}"></image>
+                <span class="title_info">
+                <b wx:if="{{office_recommend.type != null}}">#{{office_recommend.type}}#</b>
+                {{office_recommend.title}}</span>
+                <view class="bottom_info">
+                    <span class="left">{{office_recommend.userName}}</span>
+                    <span class="right">{{office_recommend.audience}}</span>
+                </view>
+            </navigator>
         </view>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="paint_plate common_plant clearfix">
+        <template is="live_common_title" data="{{info:paint_plate_data}}"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+    <view class="mobile_plant common_plant clearfix">
+        <template is="live_common_title"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+    <view class="dance_plant common_plant clearfix">
+        <template is="live_common_title"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+    <view class="mobile_game_plant common_plant clearfix">
+        <template is="live_common_title"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+    <view class="pc_game_plant common_plant clearfix">
+        <template is="live_common_title"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+    <view class="net_game_plant common_plant clearfix">
+        <template is="live_common_title"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+    <view class="otaku_plant common_plant clearfix">
+        <template is="live_common_title"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
+    </view>
+    <view class="video_hall_plant common_plant clearfix">
+        <template is="live_common_title"/>
+        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="common_bottom_more" />
     </view>
 
     <view class="filling"></view>
 </scroll-view>
 
 
-<template name="live_common_box">
-    <view class="common_live_content ">
-            <ul class="clearfix" >
-                <li wx:for="{{items}}" class='{{(index%2==0)? " left":"right" }}'>
-                    <navigator url="{{item.url}}">
-                        <image src="{{item.imgpath}}"></image>
-                        <span>{{item.title}}</span>
-                        <view class="bottom_info">
-                            <span class="left">{{item.userName}}</span>
-                            <span class="right">{{item.audience}}</span>
-                        </view>
-                    </navigator>
-                </li>
-            </ul>
-        </view>
+
+
+
+<template name="live_common_title">
+    <view class="title">
+        <navigator>
+            <span class="plate_left left">{{info.title}}</span>
+            <span class="plate_right right">当前<b>{{info.number}}</b>个直播></span>
+        </navigator>
+    </view>
 </template>
 
-<template name="swiper_template">
-
-
-
-</template>

@@ -89,33 +89,33 @@
   },
   "tabBar": {
     "color": "#dddddd",
-    "selectedColor": "#3cc51f",
+    "selectedColor": "#fd7da0",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [{
       "pagePath": "page/bilibili/live/live",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
+      "iconPath": "/images/mipmap-xxhdpi-v4/ic_category_live.png",
+      "selectedIconPath": "/images/mipmap-xxhdpi-v4/ic_category_live_all.png",
       "text": "直播"
     }, {
       "pagePath": "page/bilibili/recommend/recommend",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
+      "iconPath": "/images/mipmap-xxhdpi-v4/ic_category_promo.png",
+      "selectedIconPath": "/images/mipmap-xxhdpi-v4/ic_category_t136.png",
       "text": "推荐"
     }, {
       "pagePath": "page/bilibili/drama/drama",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
+      "iconPath": "/images/mipmap-xxhdpi-v4/ic_category_t1.png",
+      "selectedIconPath": "/images/mipmap-xxhdpi-v4/ic_category_t71.png",
       "text": "番剧"
     }, {
       "pagePath": "page/bilibili/concern/concern",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
+      "iconPath": "/images/mipmap-xxhdpi-v4/ic_category_t4.png",
+      "selectedIconPath": "/images/mipmap-xxhdpi-v4/ic_category_t152.png",
       "text": "关注"
     }, {
       "pagePath": "page/bilibili/discover/discover",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
+      "iconPath": "/images/mipmap-xxhdpi-v4/ic_category_t129.png",
+      "selectedIconPath": "/images/mipmap-xxhdpi-v4/ic_category_t39.png",
       "text": "发现"
     }]
   },
