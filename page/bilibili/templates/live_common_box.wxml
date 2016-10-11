@@ -1,7 +1,7 @@
 <template name="live_common_box">
     <view class="common_live_content ">
             <ul class="clearfix" >
-                <li wx:for="{{items}}" class='{{(index%2==0)? " left":"right" }}'>
+                <li wx:for="{{items}}" class='{{(index%2==0)? "left":"right" }}'>
                     <navigator url="{{item.url}}">
                         <image src="{{item.imgpath}}"></image>
                         <span class="title_info">

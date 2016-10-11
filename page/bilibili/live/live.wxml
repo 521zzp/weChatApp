@@ -37,7 +37,7 @@
     <view class="live_recommend common_plant clearfix">
         <template is="live_common_title" data="{{info:live_recommend_data}}"/>
 
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_box" data="{{items:recommend_lives01}}"/>
 
         <view class="offic_recommend clearfix">
              <navigator url="http://www.bilibili.com" class="clearfix">
@@ -51,56 +51,53 @@
                 </view>
             </navigator>
         </view>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_box" data="{{items:recommend_lives02}}"/>
         <template is="common_bottom_more" />
     </view>
 
     <view class="paint_plate common_plant clearfix">
         <template is="live_common_title" data="{{info:paint_plate_data}}"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_box" data="{{items:paint_plates}}"/>
         <template is="common_bottom_more" />
     </view>
     <view class="mobile_plant common_plant clearfix">
-        <template is="live_common_title"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_title" data="{{info:mobile_plant_data}}"/>
+        <template is="live_common_box" data="{{items:mobile_plants}}"/>
         <template is="common_bottom_more" />
     </view>
     <view class="dance_plant common_plant clearfix">
-        <template is="live_common_title"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_title" data="{{info:dance_plant_data}}"/>
+        <template is="live_common_box" data="{{items:dance_plants}}"/>
         <template is="common_bottom_more" />
     </view>
     <view class="mobile_game_plant common_plant clearfix">
-        <template is="live_common_title"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_title" data="{{info:mobile_game_plant_data}}"/>
+        <template is="live_common_box" data="{{items:mobile_game_plants}}"/>
         <template is="common_bottom_more" />
     </view>
     <view class="pc_game_plant common_plant clearfix">
-        <template is="live_common_title"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_title" data="{{info:pc_game_plant_data}}"/>
+        <template is="live_common_box" data="{{items:pc_game_plants}}"/>
         <template is="common_bottom_more" />
     </view>
     <view class="net_game_plant common_plant clearfix">
-        <template is="live_common_title"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_title" data="{{info:net_game_plant_data}}"/>
+        <template is="live_common_box" data="{{items:net_game_plants}}"/>
         <template is="common_bottom_more" />
     </view>
     <view class="otaku_plant common_plant clearfix">
-        <template is="live_common_title"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_title" data="{{info:otaku_plant_data}}"/>
+        <template is="live_common_box" data="{{items:otaku_plants}}"/>
         <template is="common_bottom_more" />
     </view>
     <view class="video_hall_plant common_plant clearfix">
-        <template is="live_common_title"/>
-        <template is="live_common_box" data="{{items:recommend_lives}}"/>
+        <template is="live_common_title" data="{{info:video_hall_plant_data}}"/>
+        <template is="live_common_box" data="{{items:video_hall_plants}}"/>
         <template is="common_bottom_more" />
     </view>
-
+    <view class="live_more"><navigator>更多直播</navigator></view>
     <view class="filling"></view>
 </scroll-view>
-
-
-
 
 
 <template name="live_common_title">

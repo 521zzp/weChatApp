@@ -16,6 +16,14 @@ Page({
     autoplay:true, 
     siwper_interval:5000,
     siwper_duration:1000,
+    paint_plates:[{"imgpath":"/static/image/live/87e003d145b908ea31ce93d6a190e1cd8599595f.jpg_320x200.jpg","url":"http://www.bilibili.com",
+                      "title":"使命召唤OL漫画第二话ING","userName":"麻辣图图","audience":"0.1万"},
+                      {"imgpath":"/static/image/live/oYYBAFbQJEuAdiIcAADFjDo4fc8827.jpg_320x200.jpg","url":"http://www.bilibili.com",
+                     "title":"今晚画作业","userName":"丹艾凡","audience":"1.7万"},
+                      {"imgpath":"/static/image/live/f4a0c0f3dd4fb2b3b69b250e6ecca508f8671d10.jpg_320x200.jpg","url":"http://www.bilibili.com",
+                     "title":"宫卫=。=","userName":"暗雪喜欢晚上不睡觉","audience":"0.5万"},
+                      {"imgpath":"/static/image/live/973c57ba2227cb0fcbd24266ee8e3edaeb81fe5f.jpg_320x200.jpg","url":"http://www.bilibili.com",
+                      "title":"巨乳研究中心群582877192","userName":"非非有","audience":"0.6万"}],
               
   },
   onLoad:function(options){

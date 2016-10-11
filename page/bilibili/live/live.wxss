@@ -41,10 +41,7 @@
 }
 
 
-.common_plant{
-    padding-left: 4%;
-    padding-right: 4%;
-}
+
 .clearfix:after{
     content: "";
     display: block;
@@ -167,4 +164,20 @@
     color: #fd7da0;
 }
 
-
+.live_more{
+    padding-left: 4%;
+    padding-right:4%;
+    height: 50rpx;
+    margin-top: 20rpx;
+}
+.live_more navigator{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background: #fff;
+    font-size: 12rpx;
+    line-height: 50rpx;
+    border-radius: 4px;
+    box-shadow:0 0 4px 0 #cfcfcf;
+}

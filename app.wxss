@@ -297,7 +297,10 @@ a{
     top: 70rpx;
 }
 
-
+.common_plant{
+    padding-left: 4%;
+    padding-right: 4%;
+}
 .common_swiper_box{
 	width: 100%;
 	height: 300rpx;
@@ -390,6 +393,60 @@ a{
     background-size: 30rpx 20rpx;
     background-position: 0 7rpx;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.common_live_content ul li navigator .video_bottom_info{
+    display: block;
+    position: absolute;
+    height: 30rpx;
+    line-height: 30rpx;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 10rpx;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.common_live_content ul li navigator .video_bottom_info span{
+    font-size: 1rpx;
+    display: inline-block;
+    line-height: 30rpx;
+    width: 46%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.common_live_content ul li navigator .video_bottom_info span b{
+    display: inline-block;
+    width: 20rpx;
+    height: 20rpx;
+    margin-right: 10rpx;
+    margin-top: 10rpx;
+}
+.common_live_content ul li navigator .video_bottom_info .watches b{
+    background-image: url(/images/drawable-xxhdpi-v4/ic_play_tv_black.png);
+    background-size: 100% 100%;
+}
+.common_live_content ul li navigator .video_bottom_info .danmus b{
+    background-image: url(/images/drawable-hdpi-v4/ic_answer_danmaku2.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
 
 
 .bottom_more{

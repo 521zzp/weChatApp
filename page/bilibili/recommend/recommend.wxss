@@ -1,0 +1,5 @@
+.hot_recommend_plant view navigator span{
+    display: inline-block;
+    padding-left: 20rpx;
+    background: red;
+}

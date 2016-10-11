@@ -3,7 +3,37 @@
 <include src="/page/bilibili/header/header" />
 
 <scroll-view class="content_view" scroll-y="true">
- <template is="swiper_template" data="{{items:live_siwpers,indicatorDots:indicatorDots,vertical:vertical,autoplay:autoplay,interval:siwper_interval,duration:siwper_duration}}"/>
+    <template is="swiper_template" data="{{items:live_siwpers,indicatorDots:indicatorDots,vertical:vertical,autoplay:autoplay,interval:siwper_interval,duration:siwper_duration}}"/>
 
- 
+    <view class="hot_recommend_plant common_plant clearfix">
+        <view>
+            <navigator>
+                <span class="left">热门推荐</span>
+                <span class="right">排行榜</span>
+            </navigator>
+        </view>
+    </view>
+
+
+
+
+
+
+
+    <view class="common_live_content common_plant">
+            <ul class="clearfix" >
+                <li wx:for="{{paint_plates}}" class='{{(index%2==0)? "left":"right" }}'>
+                    <navigator url="{{item.url}}">
+                        <image src="{{item.imgpath}}"></image>
+                        <span class="title_info">
+                        <b wx:if="{{item.type != null}}">#{{item.type}}#</b>
+                        {{item.title}}</span>
+                        <view class="video_bottom_info">
+                            <span class="watches"><b></b>{{item.userName}}</span>
+                            <span class="danmus"><b></b>{{item.audience}}</span>
+                        </view>
+                    </navigator>
+                </li>
+            </ul>
+        </view>
 </scroll-view>
