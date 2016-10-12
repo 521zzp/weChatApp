@@ -95,6 +95,7 @@
         <template is="live_common_box" data="{{items:video_hall_plants}}"/>
         <template is="common_bottom_more" />
     </view>
+    
     <view class="live_more"><navigator>更多直播</navigator></view>
     <view class="filling"></view>
 </scroll-view>

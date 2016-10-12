@@ -6,8 +6,8 @@
     <template is="swiper_template" data="{{items:live_siwpers,indicatorDots:indicatorDots,vertical:vertical,autoplay:autoplay,interval:siwper_interval,duration:siwper_duration}}"/>
 
     <view class="hot_recommend_plant common_plant clearfix">
-        <view>
-            <navigator>
+        <view class="hot_recommend_title">
+            <navigator class="clearfix">
                 <span class="left">热门推荐</span>
                 <span class="right">排行榜</span>
             </navigator>
