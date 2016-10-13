@@ -1,0 +1,19 @@
+<template name="common_video_box">
+    <view class="common_live_content">
+        <ul class="clearfix" >
+            <li wx:for="{{items}}" class='{{(index%2==0)? "left":"right" }}'>
+                <navigator url="{{item.url}}">
+                    <image src="{{item.imgpath}}"></image>
+                    <span class="title_info">
+                    <b wx:if="{{item.type != null}}">#{{item.type}}#</b>
+                    {{item.title}}</span>
+                    <view class="video_bottom_info">
+                        <span class="watches"><b></b>{{item.userName}}</span>
+                        <span class="danmus"><b></b>{{item.audience}}</span>
+                    </view>
+                </navigator>
+            </li>
+        </ul>
+    </view>
+</template>
+<view>通用的视频连接模块<view>

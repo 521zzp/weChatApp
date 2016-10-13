@@ -1,5 +1,9 @@
 <import src="/page/bilibili/templates/live_common_box.wxml"/>
 <import src="/page/bilibili/templates/common_swiper.wxml"/>
+<import src="/page/bilibili/templates/video_common_box.wxml"/>
+<import src="/page/bilibili/templates/live_common_title.wxml"/>
+<import src="/page/bilibili/templates/common_bottom_more.wxml"/>
+<import src="/page/bilibili/templates/drama_common_box.wxml"/>
 <include src="/page/bilibili/header/header" />
 
 <scroll-view class="content_view" scroll-y="true">
@@ -12,28 +16,30 @@
                 <span class="right">排行榜</span>
             </navigator>
         </view>
+        <template is="common_video_box" data="{{items:dance_plants}}"/>
+        <template is="common_bottom_more" />
+    </view> 
+    <view class="live_recommend_plant common_plant claerfix">
+   	    <template is="live_common_title" data="{{info:live_recommend_data}}"/>
+        <template is="live_common_box" data="{{items:recommend_lives01}}"/>
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="drama_plant common_plant clearfix">
+        <view class="recommend_common_title">
+            <navigator>
+                <span class="left">番剧推荐</span>
+                <span class="right">进去看看</span>
+            </navigator>
+        </view>
+        <template is="drama_common_temp" data="{{items:paint_plates}}" />
+        <template is="common_bottom_more" />
+    </view>
+    <view class="two_link common_plant clearfix">
+        <navigator class="left"><image src="/images/drawable-hdpi-v4/bangumi_timeline_text.png"></image></navigator>
+        <navigator class="right"><image src="/images/drawable-hdpi-v4/bangumi_index_text.png"></image></navigator>
     </view>
 
 
-
-
-
-
-
-    <view class="common_live_content common_plant">
-            <ul class="clearfix" >
-                <li wx:for="{{paint_plates}}" class='{{(index%2==0)? "left":"right" }}'>
-                    <navigator url="{{item.url}}">
-                        <image src="{{item.imgpath}}"></image>
-                        <span class="title_info">
-                        <b wx:if="{{item.type != null}}">#{{item.type}}#</b>
-                        {{item.title}}</span>
-                        <view class="video_bottom_info">
-                            <span class="watches"><b></b>{{item.userName}}</span>
-                            <span class="danmus"><b></b>{{item.audience}}</span>
-                        </view>
-                    </navigator>
-                </li>
-            </ul>
-        </view>
+<view class="filling"></view>
 </scroll-view>

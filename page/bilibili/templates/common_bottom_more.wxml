@@ -4,3 +4,6 @@
         <span class="right">11条新动态点击刷新<b class="right"></b></span>
     </view>
 </template>
+
+<view>通用的查看更多</view>
+

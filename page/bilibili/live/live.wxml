@@ -1,6 +1,7 @@
 <import src="/page/bilibili/templates/live_common_box.wxml"/>
 <import src="/page/bilibili/templates/common_swiper.wxml"/>
 <import src="/page/bilibili/templates/common_bottom_more.wxml"/>
+<import src="/page/bilibili/templates/live_common_title.wxml"/>
 <include src="/page/bilibili/header/header" />
 
 <scroll-view class="content_view" scroll-y="true">
@@ -101,12 +102,4 @@
 </scroll-view>
 
 
-<template name="live_common_title">
-    <view class="title">
-        <navigator>
-            <span class="plate_left left">{{info.title}}</span>
-            <span class="plate_right right">当前<b>{{info.number}}</b>个直播></span>
-        </navigator>
-    </view>
-</template>
 

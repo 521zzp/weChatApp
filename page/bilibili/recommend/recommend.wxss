@@ -3,11 +3,16 @@
     width: 100%;
     height: 50rpx;
     margin-top: 20rpx;
+
+
+
+    
     line-height: 50rpx;
 }
 .hot_recommend_plant .hot_recommend_title navigator span{
     display: inline-block;
     padding-left: 50rpx;
+    font-size: 30rpx;
 }
 .hot_recommend_plant .hot_recommend_title navigator .left{
     background: url(/images/mipmap-xxhdpi-v4/ic_category_promo.png) no-repeat;
@@ -17,7 +22,85 @@
     background: url(/images/drawable-xxhdpi-v4/ic_bangumi_rank.png) no-repeat;
     background-size: 50rpx 50rpx;
     padding-left: 70rpx;
+    padding-right: 10rpx;
     background-color: yellow;
     background-position: 10rpx 0;
     color: #fff;
+}
+
+.live_top_title,.recommend_common_title{
+    margin-top: 20rpx;
+}
+.live_top_title navigator,.recommend_common_title navigator{
+    display: block;
+    width: 100%;
+    height: 50rpx;
+}
+.live_top_title navigator span,.recommend_common_title navigator span{
+    display: inline-block;
+    font-size: 30rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+}
+.live_top_title navigator .plate_left{
+    padding-left: 60rpx;
+}
+.live_top_title navigator .plate_right b{
+    color: #fd7da0;
+}
+
+.live_recommend_plant .live_top_title navigator .plate_left{
+    background: url(/images/drawable-xxhdpi-v4/ic_head_live.png) no-repeat;
+    background-size: 50rpx 50rpx;
+}
+
+.recommend_common_title navigator .left{
+    padding-left:60rpx;
+}
+.recommend_common_title navigator .right{
+    width: 110rpx;
+    height: 40rpx;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 8rpx;
+    padding-left: 10rpx;
+    line-height: 40rpx;
+    margin-top: 5rpx;
+    border-radius: 3px;
+}
+
+.drama_plant .recommend_common_title navigator .left{
+    background-image: url(/images/drawable-xxhdpi-v4/search_result_ic_bangumi.png);
+    background-size: 50rpx 50rpx;
+    background-repeat: no-repeat;
+}
+
+.common_live_content ul li navigator .drama_info .left{
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.two_link{
+    margin-top: 20rpx;
+}
+.two_link navigator{
+    display: inline-block;
+    width: 220rpx;
+    height: 70rpx;
+}
+.two_link navigator image{
+    display: block;
+    margin: 10rpx auto;
+    width: 180rpx;
+    height: 50rpx;
+}
+.two_link .left{
+    background-image: url(/images/drawable-hdpi-v4/bangumi_timeline_background.png);
+    margin-left: 100rpx;
+}
+.two_link .right{
+    background-image: url(/images/drawable-hdpi-v4/bangumi_index_background.png);
+    margin-right: 100rpx;
 }

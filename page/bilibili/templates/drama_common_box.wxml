@@ -1,13 +1,11 @@
-<template name="live_common_box">
+<template name="drama_common_temp">
     <view class="common_live_content ">
             <ul class="clearfix" >
                 <li wx:for="{{items}}" class='{{(index%2==0)? "left":"right" }}'>
                     <navigator url="{{item.url}}">
                         <image src="{{item.imgpath}}"></image>
-                        <span class="title_info">
-                        <b wx:if="{{item.type != null}}">#{{item.type}}#</b>
-                        {{item.title}}</span>
-                        <view class="bottom_info">
+                        <span class="title_info">{{item.title}}</span>
+                        <view class="drama_info">
                             <span class="left">{{item.userName}}</span>
                             <span class="right">{{item.audience}}</span>
                         </view>
@@ -17,4 +15,4 @@
         </view>
 </template>
 
-<view>直播界面小盒子的通用模块</view>
+<view>直播页面番剧通用模块</view>

@@ -40,34 +40,24 @@
     margin-bottom: 10rpx;
 }
 
-
-
-.clearfix:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-
-
-.title{
+.live_top_title{
     margin-top: 20rpx;
 }
-.title navigator{
+.live_top_title navigator{
     display: block;
     width: 100%;
     height: 50rpx;
 }
-.title navigator span{
+.live_top_title navigator span{
     display: inline-block;
     font-size: 30rpx;
     height: 50rpx;
     line-height: 50rpx;
 }
-.title navigator .plate_left{
+.live_top_title navigator .plate_left{
     padding-left: 60rpx;
 }
-.title navigator .plate_right b{
+.live_top_title navigator .plate_right b{
     color: #fd7da0;
 }
 
@@ -124,43 +114,43 @@
 
 
 
-.live_recommend .title navigator .plate_left{
+.live_recommend .live_top_title navigator .plate_left{
     background: url(/images/drawable-xxhdpi-v4/ic_head_live.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.paint_plate .title navigator .plate_left{
+.paint_plate .live_top_title navigator .plate_left{
     background: url(/images/drawable-xxhdpi-v4/ic_live_center_awards.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.mobile_plant .title navigator .plate_left{
+.mobile_plant .live_top_title navigator .plate_left{
     background: url(/images/drawable-xxhdpi-v4/ic_btn_biliyoo.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.dance_plant .title navigator .plate_left{
+.dance_plant .live_top_title navigator .plate_left{
     background: url(/images/mipmap-xxhdpi-v4/ic_category_t155.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.mobile_game_plant .title navigator .plate_left{
+.mobile_game_plant .live_top_title navigator .plate_left{
     background: url(/images/drawable-xhdpi-v4/ic_author_verified.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.pc_game_plant .title navigator .plate_left{
+.pc_game_plant .live_top_title navigator .plate_left{
     background: url(/images/drawable-xxhdpi-v4/ic_header_ding.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.net_game_plant .title navigator .plate_left{
+.net_game_plant .live_top_title navigator .plate_left{
     background: url(/images/drawable-xxhdpi-v4/ic_game_detail_qq_group.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.otaku_plant .title navigator .plate_left{
+.otaku_plant .live_top_title navigator .plate_left{
     background: url(/images/drawable-xxhdpi-v4/ic_header_activity_center.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.video_hall_plant .title navigator .plate_left{
+.video_hall_plant .live_top_title navigator .plate_left{
     background: url(/images/drawable-xxhdpi-v4/ic_header_movie_fall.png) no-repeat;
     background-size: 50rpx 50rpx;
 }
-.paint_plate .title navigator .plate_right b{
+.paint_plate .live_top_title navigator .plate_right b{
     color: #fd7da0;
 }
 
