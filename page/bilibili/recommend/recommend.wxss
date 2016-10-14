@@ -2,11 +2,7 @@
     display: block;
     width: 100%;
     height: 50rpx;
-    margin-top: 20rpx;
-
-
-
-    
+    margin-top: 20rpx;   
     line-height: 50rpx;
 }
 .hot_recommend_plant .hot_recommend_title navigator span{
@@ -68,11 +64,34 @@
     margin-top: 5rpx;
     border-radius: 3px;
 }
-
-.drama_plant .recommend_common_title navigator .left{
-    background-image: url(/images/drawable-xxhdpi-v4/search_result_ic_bangumi.png);
+.recommend_common_title navigator .left{
     background-size: 50rpx 50rpx;
     background-repeat: no-repeat;
+}
+
+.drama_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t13.png);
+}
+.cartoon_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t1.png);
+}
+.music_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t3.png);
+}
+.topic_plant .recommend_common_title navigator .left{
+    background-image: url(/images/drawable-xxhdpi-v4/ic_header_topic.png);
+}
+.dance_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t129.png);
+}
+.game_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t4.png);
+}
+.guichu_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t119.png);
+}
+.technology_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t36.png);
 }
 
 .common_live_content ul li navigator .drama_info .left{
@@ -83,11 +102,11 @@
 }
 
 .two_link{
-    margin-top: 20rpx;
+    margin-top: 30rpx;
 }
 .two_link navigator{
     display: inline-block;
-    width: 220rpx;
+    width: 48%;
     height: 70rpx;
 }
 .two_link navigator image{
@@ -98,9 +117,21 @@
 }
 .two_link .left{
     background-image: url(/images/drawable-hdpi-v4/bangumi_timeline_background.png);
-    margin-left: 100rpx;
 }
 .two_link .right{
     background-image: url(/images/drawable-hdpi-v4/bangumi_index_background.png);
-    margin-right: 100rpx;
+}
+
+.single_link{
+    margin-top: 30rpx;
+}
+.single_link navigator{
+    display: block;
+    width: 100%;
+}
+.single_link navigator image{
+    display: block;
+    width: 100%;
+    height: 300rpx;
+    border-radius: 3px;
 }

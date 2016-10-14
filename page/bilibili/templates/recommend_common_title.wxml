@@ -1,0 +1,10 @@
+<template name="recommend_common_title">
+    <view class="recommend_common_title">
+            <navigator url="{{item.url}}">
+                <span class="left">{{item.title}}</span>
+                <span class="right">进去看看</span>
+            </navigator>
+        </view>
+</template>
+
+<view>推荐页面各板块通用头部</view>

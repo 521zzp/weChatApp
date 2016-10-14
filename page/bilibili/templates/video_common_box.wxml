@@ -8,7 +8,7 @@
                     <b wx:if="{{item.type != null}}">#{{item.type}}#</b>
                     {{item.title}}</span>
                     <view class="video_bottom_info">
-                        <span class="watches"><b></b>{{item.userName}}</span>
+                        <span class="watches"><b></b>{{item.user_name}}</span>
                         <span class="danmus"><b></b>{{item.audience}}</span>
                     </view>
                 </navigator>

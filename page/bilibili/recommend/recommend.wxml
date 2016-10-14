@@ -4,6 +4,7 @@
 <import src="/page/bilibili/templates/live_common_title.wxml"/>
 <import src="/page/bilibili/templates/common_bottom_more.wxml"/>
 <import src="/page/bilibili/templates/drama_common_box.wxml"/>
+<import src="/page/bilibili/templates/recommend_common_title.wxml"/>
 <include src="/page/bilibili/header/header" />
 
 <scroll-view class="content_view" scroll-y="true">
@@ -26,12 +27,7 @@
     </view>
 
     <view class="drama_plant common_plant clearfix">
-        <view class="recommend_common_title">
-            <navigator>
-                <span class="left">番剧推荐</span>
-                <span class="right">进去看看</span>
-            </navigator>
-        </view>
+        <template is="recommend_common_title" data="{{item:drama_title}}"/>
         <template is="drama_common_temp" data="{{items:paint_plates}}" />
         <template is="common_bottom_more" />
     </view>
@@ -40,6 +36,61 @@
         <navigator class="right"><image src="/images/drawable-hdpi-v4/bangumi_index_text.png"></image></navigator>
     </view>
 
+    <view class="cartoon_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:cartoon_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="single_link common_plant clearfix">
+        <navigator url="www.bilibili.com" class="clearfix"><image src="/static/image/recommend/9203c484590de9105e9d54dafcd1a5646f6d2e04.jpg"></image></navigator>
+    </view>
+
+    <view class="music_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:music_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="topic_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:topic_one_title}}"/>
+        <view class="single_link clearfix">
+            <navigator url="www.bilibili.com" class="clearfix"><image src="/static/image/recommend/c485c179a4b40a653a9310a9c1fd54662c4608a3.jpg"></image></navigator>
+        </view>
+    </view>
+
+    <view class="dance_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:dance_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="game_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:game_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="guichu_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:guichu_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="technology_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:technology_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="topic_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:topic_one_title}}"/>
+        <view class="single_link clearfix">
+            <navigator url="www.bilibili.com" class="clearfix"><image src="/static/image/recommend/8ee56011a1f47c5134be56ca23275f79c68182dc.jpg"></image></navigator>
+        </view>
+    </view>
+
 
 <view class="filling"></view>
 </scroll-view>
+
