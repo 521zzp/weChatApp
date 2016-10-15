@@ -111,7 +111,12 @@ Page({
     game_title:{"url":"www.bilibili.com","title":"游戏区"},
     guichu_title:{"url":"www.bilibili.com","title":"鬼畜区"},
     technology_title:{"url":"www.bilibili.com","title":"科技区"},
-              
+    life_title:{"url":"www.bilibili.com","title":"生活区"},
+    fashion_plant:{"url":"www.bilibili.com","title":"时尚区"},
+    advertisement_title:{"url":"www.bilibili.com","title":"广告区"},
+    entertainment_title:{"url":"www.bilibili.com","title":"娱乐区"},
+    television_title:{"url":"www.bilibili.com","title":"电视剧区"},
+    movie_title:{"url":"www.bilibili.com","title":"电影区"},      
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数

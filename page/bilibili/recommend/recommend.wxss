@@ -93,6 +93,25 @@
 .technology_plant .recommend_common_title navigator .left{
     background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t36.png);
 }
+.life_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t160.png);
+}
+.fashion_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t155.png);
+}
+.advertisement_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t165.png);
+}
+.entertainment_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t5.png);
+}
+.television_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t11.png);
+}
+.movie_plant .recommend_common_title navigator .left{
+    background-image: url(/images/mipmap-xxhdpi-v4/ic_category_t23.png);
+}
+
 
 .common_live_content ul li navigator .drama_info .left{
     width: 50%;
@@ -132,6 +151,6 @@
 .single_link navigator image{
     display: block;
     width: 100%;
-    height: 300rpx;
+    height: 250rpx;
     border-radius: 3px;
 }

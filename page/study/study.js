@@ -11,3 +11,5 @@ Page({
     imgs:[{"url":"../imgs/swiper02.jpg","color":"red"},{"url":"../imgs/swiper04.jpg","color":"blue"},{"url":"../imgs/swiper06.jpg","color":"green"}]
   }
 })
+
+

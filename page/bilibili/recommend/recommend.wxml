@@ -90,6 +90,56 @@
         </view>
     </view>
 
+    <view class="life_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:life_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="fashion_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:fashion_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="advertisement_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:advertisement_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="entertainment_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:entertainment_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+    
+    <view class="television_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:television_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="movie_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:movie_title}}"/>
+        <template is="common_video_box" data="{{items:video_hall_plants}}" />
+        <template is="common_bottom_more" />
+    </view>
+
+    <view class="topic_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:topic_one_title}}"/>
+        <view class="single_link clearfix">
+            <navigator url="www.bilibili.com" class="clearfix"><image src="/static/image/recommend/4016ae1d1ecafd0330e11e00635a418bbe88d376.jpg"></image></navigator>
+        </view>
+    </view>
+
+    <view class="topic_plant common_plant clearfix">
+        <template is="recommend_common_title" data="{{item:topic_one_title}}"/>
+        <view class="single_link clearfix">
+            <navigator url="www.bilibili.com" class="clearfix"><image src="/static/image/recommend/c28353328a532be10b181b973cc3c6b1a49bcbd9.jpg"></image></navigator>
+        </view>
+    </view>
+
 
 <view class="filling"></view>
 </scroll-view>
