@@ -8,7 +8,7 @@
                     <b wx:if="{{item.type != null}}">#{{item.type}}#</b>
                     {{item.title}}</span>
                     <view class="video_bottom_info">
-                        <span class="watches"><b></b>{{item.user_name}}</span>
+                        <span class="watches"><b></b>{{item.watches}}</span>
                         <span class="danmus"><b></b>{{item.audience}}</span>
                     </view>
                 </navigator>
@@ -16,4 +16,4 @@
         </ul>
     </view>
 </template>
-<view>通用的视频连接模块<view>
+<view>通用的视频链接模块<view>

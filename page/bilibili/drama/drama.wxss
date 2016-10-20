@@ -1,0 +1,174 @@
+.drama_top_class{
+    margin-top:30rpx;
+}
+.drama_top_class navigator{
+    display: inline-block;
+    width: 30%;
+    height: 80rpx;
+    border-radius: 4rpx;
+}
+.drama_top_class .zuifan,.drama_top_class .fangsong{
+    margin-right: 5%;
+}
+.drama_top_class navigator view{
+    display: inline-block;
+    height: 80rpx;
+    width:80rpx;
+    background-size: 80rpx 80rpx;
+    margin-left: 10rpx;
+}
+.drama_top_class navigator span{
+    display: inline-block;
+    line-height: 80rpx;
+    color: #fff;
+    font-size: 30rpx;
+    margin-right: 10rpx;
+    word-spacing: 8px;
+}
+.drama_top_class .zuifan{
+    background-color:#FC9F39;
+}
+.drama_top_class .zuifan view{
+    background-image: url("/images/drawable-xxhdpi-v4/ic_bangumi_calendar_6.png");
+}
+.drama_top_class .fangsong{
+    background-color: #F03311;
+}
+.drama_top_class .fangsong view{
+    background-image: url("/images/drawable-xxhdpi-v4/ic_bangumi_calendar_4.png");
+}
+.drama_top_class .suoyin{
+    background-color: #14A1F1;
+}
+.drama_top_class .suoyin view{
+    background-image: url("/images/drawable-xxhdpi-v4/ic_bangumi_category.png");
+}
+
+
+.drama_common_title{
+    margin-top: 30rpx;
+    height: 50rpx;
+}
+.drama_common_title navigator{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.drama_common_title navigator span{
+    display: inline-block;
+    height: 100%;
+    line-height: 50rpx;
+    font-size: 8rpx;
+}
+.drama_common_title navigator .left{
+    font-size:28rpx;
+    padding-left: 70rpx;
+    background-size: 50rpx 50rpx;
+    background-repeat: no-repeat;
+    background-position:10rpx 0;
+}
+.new_drama_plant .drama_common_title navigator .left{
+    background-image: url(/images/drawable-xxhdpi-v4/ic_lianzai.png);
+}
+.native_cartoon_plant .drama_common_title navigator .left{
+    background-image: url(/images/drawable-xxhdpi-v4/domestic_animimation_ic_head.png);
+}
+.new_month_drama .drama_common_title navigator .left{
+    background-image: url(/images/drawable-xxhdpi-v4/bangumi_home_ic_season_3.png);
+}
+.drama_recommend_plant .drama_common_title navigator .left{
+    background-image: url(/images/drawable-xxhdpi-v4/ic_bangumi_recommend.png);
+}
+
+
+.drama_content_one{
+    margin-top: 30rpx;
+}
+.drama_content_one ul{
+    display: block;
+}
+
+.new_drama_plant .drama_content_one ul li{
+    height: 370rpx;
+}
+.drama_content_one ul li{
+    display: inline-block;
+    width: 30%;
+    height: 310rpx;
+    margin-right: 5%;
+    margin-bottom: 20rpx;
+}
+.drama_content_one ul li navigator{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.drama_content_one ul li.thred{
+    margin-right: 0;
+}
+.drama_content_one ul li navigator image{
+    display: block;
+    width: 100%;
+    height: 280rpx;
+    border-radius: 4rpx;
+    position: relative;
+    box-shadow: 1px 1px 2px 2px #dcdcdc;
+}
+.drama_content_one ul li navigator image span{
+    font-size: 8rpx;
+    color: #fff;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 40rpx;
+    line-height: 40rpx;
+    padding-left: 10rpx;
+    background:  linear-gradient(transparent,rgba(0,0,0,0.1) 20%,rgba(0,0,0,0.2) 35%,rgba(0,0,0,0.5) 65%,rgba(0,0,0,0.66));
+    bottom: 0;
+}
+.drama_content_one ul li navigator span{
+    display: block;
+    width: 100%;
+    font-size: 10rpx;
+}
+.drama_content_one ul li navigator .now_update{
+    color: #bcbcbc;
+}
+.drama_content_one ul li navigator .title{
+    margin-top: 10rpx;
+    margin-bottom: 5rpx;
+}
+
+
+.drama_content_two{
+    margin-top: 30rpx;
+}
+.drama_content_two ul li{
+    display: inline-block;
+    margin-bottom: 40rpx;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 2px #dcdcdc;
+    border-radius: 4rpx;
+    overflow: hidden;
+}
+.drama_content_two ul li navigator{
+    padding-bottom: 20rpx;
+}
+.drama_content_two ul li navigator image{
+    display: block;
+    width: 100%;
+    height: 200rpx;
+}
+.drama_content_two ul li navigator span{
+    margin-top: 20rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    display: block;
+}
+.drama_content_two ul li navigator .title{
+    font-size: 18rpx;
+}
+.drama_content_two ul li navigator .more_msg{
+    font-size: 12rpx;
+    color: #bcbcbc;
+}

@@ -2,9 +2,83 @@
 <import src="/page/bilibili/templates/common_swiper.wxml"/>
 <include src="/page/bilibili/header/header" />
 
-<scroll-view class="content_view" scroll-y="true">
+<scroll-view class="content_view" scroll-y="true" bindscrolltolower="loadMore">
  <template is="swiper_template" data="{{items:live_siwpers,indicatorDots:indicatorDots,vertical:vertical,autoplay:autoplay,interval:siwper_interval,duration:siwper_duration}}"/>
+    
+    <view class="drama_top_class common_plant clearfix">
+        <navigator class="zuifan">
+            <view class="left"></view>
+            <span class="right">追 番</span>
+        </navigator>
+        <navigator class="fangsong">
+            <view class="left"></view>
+            <span class="right">放送表</span>
+        </navigator>
+        <navigator class="suoyin">
+            <view class="left"></view>
+            <span class="right">索 引</span>
+        </navigator>
+    </view> 
 
- 
+    <view class="new_drama_plant common_plant clearfix">
+        <template is="dram_comm_title_temp" data="{{item:new_drama_title}}"/>
+        <template is="drama_content_temp_one" data="{{items:new_drama_datas}}"/>
+    </view>
+    <view class="native_cartoon_plant common_plant clearfix">
+        <template is="dram_comm_title_temp" data="{{item:navitve_cartoon_title}}"/>
+        <template is="drama_content_temp_one" data="{{items:navite_cartoon_datas}}"/>
+    </view>
+    <view class="new_month_drama common_plant clearfix">
+        <template is="dram_comm_title_temp" data="{{item:new_month_drama_title}}"/>
+        <template is="drama_content_temp_one" data="{{items:new_month_drama_datas}}"/>
+    </view>
+    <view class="drama_recommend_plant common_plant clearfix">
+        <template is="dram_comm_title_temp" data="{{item:drama_recommend_title}}"/>
+        <template is="drama_content_temp_two" data="{{items:drama_bigger_datas}}"/>
+    </view>
+
+ <view class="load_temp_one  clearfix"><image class="left" src="/images/loading.gif" mode="aspectFill"/><text class="left">玩了命的加载中...</text></view>
+ <view class="filling"></view>
 </scroll-view>
-<view>番剧</view>
+
+
+<template name="dram_comm_title_temp">
+    <view class="drama_common_title">
+        <navigator url="{{item.url}}">
+            <span class="left">{{item.type}}</span>
+            <span class="right">{{item.more_msg}}</span>
+        </navigator>
+    </view>
+</template>
+
+<template name="drama_content_temp_one">
+    <view class="drama_content_one clearfix">
+        <ul class="clearfix">
+            <li wx:for="{{items}}" class='{{((index+1)%3==0)? "thred left":"left" }}'>
+                <navigator url="{{item.url}}">
+                    <image src="{{item.imgpath}}">
+                        <span wx:if="{{item.watchingnum != null}}">{{item.watchingnum}}人在看</span>
+                        <span wx:if="{{item.update_time != null}}">{{item.update_time}}</span>
+                        <span wx:if="{{item.concern_num != null}}">{{item.concern_num}}人追番</span>
+                    </image>
+                    <span class="title clearfix">{{item.title}}</span>
+                    <span wx:if="{{item.now_update != null}}" class="now_update">更新至第{{item.now_update}}话</span>
+                </navigator>
+            </li>
+        </ul>
+    </view>
+</template>
+
+<template name="drama_content_temp_two">
+<view class="drama_content_two clearfix">
+    <ul class="clearfix">
+        <li wx:for="{{items}}" class="clearfix left">
+            <navigator url="{{item.url}}">
+                <image src="{{item.imgpath}}"></image>
+                <span class="title">{{item.title}}</span>
+                <span class="more_msg">{{item.more_msg}}</span>
+            </navigator>
+        </li>
+    </ul>
+</view>
+</template>

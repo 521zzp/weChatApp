@@ -1,5 +1,5 @@
 <template name="live_common_box">
-    <view class="common_live_content ">
+    <view class="common_live_content clearfix">
             <ul class="clearfix" >
                 <li wx:for="{{items}}" class='{{(index%2==0)? "left":"right" }}'>
                     <navigator url="{{item.url}}">

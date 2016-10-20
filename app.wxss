@@ -488,3 +488,22 @@ a{
 .filling{
     height: 150rpx;
 }
+.load_temp_one{
+    height: 80rpx;
+    background-color: #fff;
+    width: 92%;
+    margin: 0 auto;
+    border-radius: 4rpx;
+}
+.load_temp_one image{
+    display: inline-block;
+    width: 80rpx;
+    margin-left: 150rpx;
+    height: 80rpx;
+}
+.load_temp_one text{
+    display: inline-block;
+    margin-left: 100rpx;
+    height: 100rpx;
+    line-height: 80rpx;
+}
