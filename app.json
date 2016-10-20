@@ -1,6 +1,5 @@
 {
   "pages": [
-
       "page/bilibili/index/index",
       "page/bilibili/live/live",
       "page/bilibili/recommend/recommend",
@@ -8,12 +7,6 @@
       "page/bilibili/discover/discover",
       "page/bilibili/concern/concern",
       "page/bilibili/header/header",
-
-
-
-
-
-
       "page/study/study"
      
   ],
