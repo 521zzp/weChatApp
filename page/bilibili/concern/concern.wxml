@@ -2,8 +2,5 @@
 <import src="/page/bilibili/templates/common_swiper.wxml"/>
 <include src="/page/bilibili/header/header" />
 
-<scroll-view class="content_view" scroll-y="true">
- <template is="swiper_template" data="{{items:live_siwpers,indicatorDots:indicatorDots,vertical:vertical,autoplay:autoplay,interval:siwper_interval,duration:siwper_duration}}"/>
-
- 
-</scroll-view>
+<image class="unLogin_img" src="/images/drawable-xxhdpi-v4/img_tips_error_not_loin.png"></image>
+<navigator url="www.login.com"><text class="unLogin_text">登录</text></navigator>

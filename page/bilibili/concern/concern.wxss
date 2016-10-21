@@ -1,0 +1,19 @@
+.unLogin_img{
+    display: block;
+    width: 250rpx;
+    height: 200rpx;
+    margin: 0 auto;
+    margin-top: 400rpx;
+}
+.unLogin_text{
+    display: block;
+    margin: 50rpx auto;
+    width: 200rpx;
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+    color: #fff;
+    font-size: 30rpx;
+    background-color: #fb7299;
+    border-radius: 4rpx;
+}
